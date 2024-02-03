@@ -1,0 +1,6 @@
+{
+    "resource_pack_name": "pack.name", 
+    "texture_data": {
+	"studioname_packname:guide": {"textures": "textures/studioname/packname/items/guide.png"}
+	}
+}

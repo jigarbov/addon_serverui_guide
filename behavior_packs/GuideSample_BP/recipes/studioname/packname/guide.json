@@ -1,0 +1,28 @@
+{
+    "format_version": "1.13.0", 
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "studioname_packname:guide"
+        }, 
+        "ingredients": [
+			{
+				"item": "minecraft:book"
+            },
+            {
+				"item": "minecraft:red_dye"
+            },            
+            {
+				"item": "minecraft:green_dye"
+            },
+            {
+				"item": "minecraft:blue_dye"
+            }
+        ], 
+        "result": {
+			"item": "studioname_packname:guide"
+        }, 
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}
