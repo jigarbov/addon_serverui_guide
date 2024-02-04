@@ -1,4 +1,7 @@
 # addon_serverui_guide
+## What do I do?
+Download either the .mcaddon or the full resource and behavior folders. They both contain the same stuff and put them into your Add-On development folders as usual.
+
 ## Whats in it?
 Fully functional ServerUI implementation including some lightweight script to give every player a specific item the first time they enter any world with this addon.
 ![image](https://github.com/jigarbov/addon_serverui_guide/assets/30274167/90486c17-be6d-41ca-82da-bca821668a99)
