@@ -40,10 +40,10 @@ The big chunk of text is where the body of the dialogue window goes. This can be
 At the bottom you can see a place to add some custom sound effects on open and close. I recommend using some that appear in your pack to give it some custom flavor.
 
 ## Don't forget UUIDS!
-In the manifest of your behavior & resource pack are a whole bunch of UUID's. You should already know about them, but the TLDR is you should generate new ones for _ALL_ of them except the dependancies.
+In the manifest of your behavior & resource pack are a whole bunch of UUID's. You should already know about them, but the TLDR is you should generate new ones for _ALL_ of them except the dependencies.
 
-## What's a dependancy?
-Dependancies ensure both the behavior & resource pack get added at the same time. To make sure this happens you need to **copy your new uuid from the "header" of the resource pack to the dependancies in the manifest of the behavior pack**. And vice versa, the ***header uuid of the resource pack into the dependancies of the behavior pack**.
+## What's a dependency?
+Dependencies ensure both the behavior & resource pack get added at the same time. To make sure this happens you need to **copy your new uuid from the "header" of the resource pack to the dependencies in the manifest of the behavior pack**. And vice versa, the ***header uuid of the resource pack into the dependencies of the behavior pack**.
 
 # You did it!
 ## But how do you test it?
@@ -67,3 +67,5 @@ Just delete this bit of code from the main.js
 
 ## Can I integrate this with my own scripts?
 Of course, just make sure you add everything from the main.js into your own scripting main.js including the imports at the top. But if you're already scripting you probably don't need me to tell you that.
+
+## Not copyright Jigarbov Productions
