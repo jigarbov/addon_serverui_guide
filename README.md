@@ -52,7 +52,7 @@ Dependencies ensure both the behavior & resource pack get added at the same time
 - Press the close button to close it.
 - Don't forget to try to craft it to ensure the recipe was set up right!
 
-### FAQ
+# FAQ
 ## I didn't get the item when I opened the world.
 Check that the BOOK_ID in main.js matches the identifier of your actual book.
 
