@@ -2,6 +2,8 @@
 ## What do I do?
 Download either the GuideSample.mcaddon or the full resource and behavior folders. **They both contain the same stuff, put them into your Add-On development folders as usual.**
 
+### If you use a TS environment and are compiling from source, download the scripts folder separately and put it into your development environment. It includes the TS declarations you will need.
+
 ## Whats in it?
 Fully functional ServerUI implementation including some lightweight script to give every player a specific item the first time they enter any world with this Add-On.
 ![image](https://github.com/jigarbov/addon_serverui_guide/assets/30274167/90486c17-be6d-41ca-82da-bca821668a99)
@@ -79,7 +81,7 @@ Just delete this bit of code from the main.js
 });`
 
 ## Q: Can I integrate this with my own scripts?
-Of course, just make sure you add everything from the main.js into your own scripting main.js including the imports at the top. But if you're already scripting you probably don't need me to tell you that.
+Of course, just make sure you downloaded the seperate scripting folder. This includes the TS declaration files in the Util folder. Then add everything from the main.ts into your own main.ts including the imports at the top. But if you're already scripting you probably don't need me to tell you that.
 
 ## Qmagnet: I changed stuff and it isn't updating in my world.
 It depends on what isn't changing, but make sure you are using the development_resource_pack and development_behavior_pack folders. If you installed the .mcaddon on it's own then its likely installed into the other folder and you should develop it the way you normally develop Add-Ons. If you didn't get a book the second time, well that's by design. Start a new world and attach the packs again.
