@@ -1,5 +1,5 @@
 import showDialogueOnItemUse from "./util/show-dialogue-on-item-use";
-import giveASingleItem from "./util/give-a-single-book";
+import giveASingleItem from "./util/give-a-single-item";
 
 const BOOK_ID = "studioname_packname:guide" // If you did a global find and replace, this should now be the same as your book item.
 
