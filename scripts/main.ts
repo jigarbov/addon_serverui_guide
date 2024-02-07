@@ -36,6 +36,7 @@ showDialogueOnItemUse({
   soundOnClose: "mob.chicken.say", // Remove or change this line to your custom sounds
 });
 
+//delete this if you are giving your book in a different way
 giveASingleItem({
 	itemTypeId: BOOK_ID
 });
