@@ -2,7 +2,7 @@
 ## What do I do?
 Download either the GuideSample.mcaddon or the full resource and behavior folders. **They both contain the same stuff, put them into your Add-On development folders as usual.**
 
-### ***If you use a TS environment and are compiling from source, download the scripts folder separately and put it into your development environment. It includes the TS declarations you will need.***
+### ***If you use a TS environment and are compiling from source, download the ```scripts``` folder that is separate and put it into your development environment. It includes the TS declarations you will need.***
 
 ## Whats in it?
 Fully functional ServerUI implementation including some lightweight script to give every player a specific item the first time they enter any world with this Add-On.
