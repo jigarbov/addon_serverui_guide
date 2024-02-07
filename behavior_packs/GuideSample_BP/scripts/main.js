@@ -1,5 +1,5 @@
 import showDialogueOnItemUse from "./util/show-dialogue-on-item-use";
-import giveASingleBook from "./util/give-a-single-book";
+import giveASingleItem from "./util/give-a-single-book";
 
 const BOOK_ID = "studioname_packname:guide" // If you did a global find and replace, this should now be the same as your book item.
 
@@ -36,6 +36,6 @@ showDialogueOnItemUse({
   soundOnClose: "mob.chicken.say", // Remove or change this line to your custom sounds
 });
 
-giveASingleBook({
+giveASingleItem({
 	itemTypeId: BOOK_ID
 });
