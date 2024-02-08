@@ -41,7 +41,8 @@ Crack open `GuideSample_BP/scripts/main.js` in your text editor of choice. I lik
 This means there's something you should double check. If you did the global replace, many of these are already pointing to the correct lang string. If you didn't, you need to make sure they are.
 
 The big chunk of text is where the body of the dialogue window goes. This can be formatted however you like, the important part here is that all of the text corresponds to your lang entries. This is standard rawtext formatting, if you are not familiar I would recommend checking some online guides about the rawtext format.
-![image](https://github.com/jigarbov/addon_serverui_guide/assets/30274167/ee4370a1-4bf5-404a-beee-c984efacf035)
+![image](https://github.com/jigarbov/addon_serverui_guide/assets/30274167/001c9bab-7f3b-42b3-a90c-ef8f3376ebfe)
+
 
 ### 8. Sounds
 At the bottom you can see a place to add some custom sound effects on open and close. I recommend using some that appear in your pack to give it some custom flavor.
