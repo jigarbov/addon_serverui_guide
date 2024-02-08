@@ -66,6 +66,14 @@ Dependencies ensure both the behavior & resource pack get added at the same time
 
 Check that the BOOK_ID in main.js matches the identifier of your actual book. It's yelling at you because it can't find your item, so you forgot to either rename the item in the script or rename the identifier in your behavior pack of the item itself.
 
+## Q: I got the item but the game still yelled at me, something about server-ui
+![image](https://github.com/jigarbov/addon_serverui_guide/assets/30274167/7b3b1716-7cdb-4757-a436-2a683f4ad860)
+This only happens if you didn't use the supplied behavior pack and integrated it with your own. Make sure you have the server-ui dependency in your behavior pack manifest. Add it there, check the behavior pack manifest here to confirm the format. It looks like this:
+`{
+		"module_name": "@minecraft/server-ui",
+		"version": "1.1.0"
+	  }`
+
 ## Q: My item is invisible :(
 ![image](https://github.com/jigarbov/addon_serverui_guide/assets/30274167/eabed751-7c4b-43e5-a133-6b88b29d0fb9)
 
