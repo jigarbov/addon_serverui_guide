@@ -13,7 +13,7 @@ Fully functional ServerUI implementation including some lightweight script to gi
 - `textures/studioname/packname/items/guide.png`
 ### 2. Customise the recipe
 - `GuideSample_BP/recipes/studioname/packname/guide.json`
-### 3. Replace studioname/packname with your chosen folder names according to the guidelines in the following folders:
+### 3. Rename the studioname/packname folders with your chosen folder names according to the guidelines in the following paths:
 - `GuideSample_BP/items/studioname/packname`
 - `GuideSample_BP/recipes/studioname/packname`
 - `GuideSample_RP/textures/studioname/packname/items`
