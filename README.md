@@ -25,7 +25,7 @@ Fully functional ServerUI implementation including some lightweight script to gi
 Now that your renamed your folders, you will have to update `GuideSample_RP/textures/item_texture.json` specifically where it references your new location for the guide.png image. The file looks like this: ![image](https://github.com/jigarbov/addon_serverui_guide/assets/30274167/3c3d6139-09a6-457e-b36e-969f4d1a8731)
 
 ## Finally, it's time to edit the script and lang file.
-### 7. Lang File
+### 6. Lang File
 You will find the lang file in `GuideSample_RP/texts/en_US.lang` and inside it a bunch of pre-populated lang entries. You will be changing all of these to help players understand how YOUR Add-On works. Be informational but concise. This is NOT supposed to be used to be a comprehensive guide about everything your Add-On does. Think of it as a starter guide to push players in the right direction so you don't rob them of all discovery.
 
 Note:
@@ -33,7 +33,7 @@ Note:
 - §c = color codes. You can find a reference of them here: https://minecraft.wiki/w/Formatting_codes#Color_codes
 - Keep in mind that this will be bright text on a dark background. So avoid using dark colors.
 
-### 8. Script main.js
+### 7. Script main.js
 The scary file. This might be your first time editing a script, but don't worry! We've made it super easy for you!
 Crack open `GuideSample_BP/scripts/main.js` in your text editor of choice. I like VSCode, but even notepad will do. You'll notice a bunch of comments like this:
 > // If you did a global find and replace, this should now be the same as your book item.
@@ -43,10 +43,10 @@ This means there's something you should double check. If you did the global repl
 The big chunk of text is where the body of the dialogue window goes. This can be formatted however you like, the important part here is that all of the text corresponds to your lang entries. This is standard rawtext formatting, if you are not familiar I would recommend checking some online guides about the rawtext format.
 ![image](https://github.com/jigarbov/addon_serverui_guide/assets/30274167/ee4370a1-4bf5-404a-beee-c984efacf035)
 
-### 9. Sounds
+### 8. Sounds
 At the bottom you can see a place to add some custom sound effects on open and close. I recommend using some that appear in your pack to give it some custom flavor.
 
-## 10. Don't forget UUIDS!
+## 9. Don't forget UUIDS!
 In the manifest of your behavior & resource pack are a whole bunch of UUID's. You should already know about them, but the TLDR is you should generate new ones for _ALL_ of them except the dependencies.
 ### What's a dependency?
 Dependencies ensure both the behavior & resource pack get added at the same time. To make sure this happens you need to **copy your new uuid from the "header" of the resource pack to the dependencies in the manifest of the behavior pack**. And vice versa, the ***header uuid of the resource pack into the dependencies of the behavior pack**.
